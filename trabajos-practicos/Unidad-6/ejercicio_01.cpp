@@ -54,6 +54,9 @@ void ejecutarSwitch(int opcion){
 		case 3:
 			eliminarIdenticador();
 			break;
+		case 0:
+			cout << "Fin del programa!";
+			break;
 		default:
 			cout << "Opcion desconocida!"<< endl;
 			break;
