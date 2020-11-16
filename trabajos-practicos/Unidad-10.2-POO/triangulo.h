@@ -7,6 +7,7 @@ class Triangulo : public Figura{
 
 	public:
 		Triangulo();
+		~Triangulo();
 		virtual void Dibujar();
 		virtual void Borrar();
 

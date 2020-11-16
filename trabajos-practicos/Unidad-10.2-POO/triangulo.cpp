@@ -1,7 +1,12 @@
 #include <iostream>
 #include "triangulo.h"
 
-Triangulo::Triangulo(){}
+Triangulo::Triangulo(){
+	//constructor
+}
+Triangulo::~Triangulo(){
+	//destructor
+}
 void Triangulo::Dibujar(){
 	std::cout << "Dibujando Triangulo /| /|..." << std::endl;
 }

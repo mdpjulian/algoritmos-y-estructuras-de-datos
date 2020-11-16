@@ -4,6 +4,7 @@
 class Figura{
 	public:
 		Figura();
+		virtual ~Figura();
 		virtual void Dibujar();
 		virtual void Borrar();
 		void Rotar();

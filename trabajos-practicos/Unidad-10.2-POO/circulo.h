@@ -8,6 +8,7 @@ class Circulo : public Figura{
 	public:
 		Circulo();
 		Circulo(float rad);
+		~Circulo();
 		virtual void Dibujar();
 		virtual void Borrar();
 		void SetRadio(float rad);

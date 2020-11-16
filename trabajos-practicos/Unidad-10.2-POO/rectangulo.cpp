@@ -1,7 +1,12 @@
 #include <iostream>
 #include "rectangulo.h"
 
-Rectangulo::Rectangulo(){}
+Rectangulo::Rectangulo(){
+	//constructor
+}
+Rectangulo::~Rectangulo(){
+	//destructor
+}
 void Rectangulo::Dibujar(){
 	std::cout << "Dibujando Rectangulo |__| |__|..." << std::endl;
 }

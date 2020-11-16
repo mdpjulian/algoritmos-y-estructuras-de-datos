@@ -1,8 +1,12 @@
 #include <iostream>
 #include "figura.h"
 
+
 Figura::Figura(){
-	//noArg
+	//constructor
+}
+Figura::~Figura(){
+	//destructor
 }
 void Figura::Dibujar(){
 	std::cout << "Dibujando figura..." << std::endl;

@@ -6,11 +6,12 @@
 
 using namespace std;
 
-void EjecutarSwitch(int x);
 
 int main(){
 	int x;	
-	
+	Figura *pF0, *pF1, *pF2, *pF3;
+	Figura *pArray[4];
+
 	do{
 
 	cout << "1-Crear Figura y dibujar" << endl;
@@ -21,18 +22,6 @@ int main(){
 	cout << "0-Finalizar programa" << endl;
 	cin >> x;
 	
-	EjecutarSwitch(x);
-
-	}while (x != 0);
-  	cin.sync();
-  	cin.get();
-  	
-  	return 0;
-}
-void EjecutarSwitch(int x){
-	Figura *pF0, *pF1, *pF2, *pF3;
-	Figura *pArray[4];
-
 	switch(x){
 		case 1:
 			pF0 = new Figura();
@@ -59,15 +48,15 @@ void EjecutarSwitch(int x){
 				pArray[i]->Dibujar();
 			}
 			break;
-		case 0:
-			delete pF0, pF1, pF2, pF3;
-			cout << "Pulse enter para finalizar!";
-			break;
 
 		default:
 		cout << "opcion incorrecta" << endl;
 	}
-	
-  	
 
+	}while (x != 0);
+	delete pF0, pF1, pF2, pF3;
+
+  	cin.sync();
+  	
+  	return 0;
 }

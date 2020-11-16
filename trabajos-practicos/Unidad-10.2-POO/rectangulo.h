@@ -7,6 +7,7 @@ class Rectangulo : public Figura{
 
 	public:
 		Rectangulo();
+		~Rectangulo();
 		virtual void Dibujar();
 		virtual void Borrar();
 

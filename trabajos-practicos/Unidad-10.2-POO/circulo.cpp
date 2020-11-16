@@ -5,6 +5,9 @@
 Circulo::Circulo(){
 	radio = 3.45;
 }
+Circulo::~Circulo(){
+	//destructor
+}
 Circulo::Circulo(float rad){
 	this->radio = rad;
 }
