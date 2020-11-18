@@ -57,7 +57,6 @@ void Animal::GetAnimalType(){
 			break;
 		default:
 		break;
-
 	}
 }
 //Oviparous

@@ -17,8 +17,9 @@ int main(){
 		cout << "3-Dormirlo" << endl;
 		cout << "4-Reproducir" << endl;
 		cout << "0-Finalizar" << endl;
+		cout << endl;
+		cout << "Ingresa numero: ";
 		cin >> op;
-		//cin.ignore();
 
 
 		switch(op){
@@ -32,7 +33,6 @@ int main(){
 						cout << "5- Ballena" << endl;
 						cout << "6- Leon Marino" << endl;
 						cin >> op;
-						cin.ignore();
 
 				
 						switch(op){
@@ -103,7 +103,7 @@ int main(){
 						cout << endl;
 						break;
 					case 0:
-						cout << "programa finalizado..";
+						cout << "Programa finalizado!..";
 						break;
 					default:
 						cout << "Opcion incorrecta, ingrese nuevamente!" << endl;
@@ -116,6 +116,5 @@ int main(){
 	}
 	cin.sync();
 
-return 0;
-	
+return 0;	
 }

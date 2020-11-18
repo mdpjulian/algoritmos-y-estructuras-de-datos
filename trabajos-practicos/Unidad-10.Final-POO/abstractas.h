@@ -1,7 +1,7 @@
 #ifndef ABSTRACTAS_H
 #define ABSTRACTAS_H
 
-class Animal{  // Clase Base Abstracta
+class Animal{
 	public:
 		virtual void eat();
 		virtual void sleep() =0;
@@ -17,13 +17,13 @@ class Animal{  // Clase Base Abstracta
 		int code;
 };
 
-class Oviparous : public Animal{  // Clase Derivada Abstracta
+class Oviparous : public Animal{
 	public:
 		void layEggs();
 
 };
 
-class Mammal : public Animal{  // Clase Derivada Abstracta
+class Mammal : public Animal{
 	public:
 		void nurse();
 
